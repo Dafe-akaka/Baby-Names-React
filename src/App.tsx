@@ -1,4 +1,5 @@
 import { AllBabyNames } from "./Components/AllBabyNames";
+import "./App.css"
 
 
 function App() {

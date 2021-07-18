@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { SearchBarProp } from '../utils/Interfaces'
 
 export const SearchBar = ({setBabyNameSearch,babyNameSearchId}:SearchBarProp): JSX.Element =>  {

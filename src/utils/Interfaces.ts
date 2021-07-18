@@ -11,8 +11,3 @@ export interface SearchBarProp {
     babyNameSearchId: string
 }
 
-
-export interface SingleBabyNameProps{
-    id : number;
-    name:  string;
-}

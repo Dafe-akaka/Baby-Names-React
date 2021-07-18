@@ -1,10 +1,10 @@
-import React from 'react'
-import { SingleBabyNameProps } from '../utils/Interfaces'
+
+import { BabyNames,  } from '../utils/Interfaces'
 
 
-export default function SingleBabyName({id,name}: SingleBabyNameProps): JSX.Element {
+export default function SingleBabyName({id,name,sex}: BabyNames): JSX.Element {
     return (
-        <div key = {id} >
+        <div className= {sex === "f" ? "card girl": " card boy"} key = {id} >
             
             <p>{name}</p>  
         </div>
